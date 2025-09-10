@@ -1,0 +1,40 @@
+body {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    transition: 250ms;
+
+}
+
+
+
+
+
+.can{
+
+    border: solid 1px white;
+    position: absolute;
+    background: no-repeat;
+    position: absolute;
+    top: 0px;
+}
+
+#fon {
+    z-index: 11;
+    box-shadow: inset 0px 0px 10px white;
+}
+
+#fondo{
+    position: absolute;
+    background: black;
+    z-index: -3;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+}
+  
+ 
