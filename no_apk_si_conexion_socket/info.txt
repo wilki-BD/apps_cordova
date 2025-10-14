@@ -1,0 +1,5 @@
+* añade un input con el id = "destinario",
+
+* lo de añade_script.js se lo añades y modificas lo que tengas que modificar (como el boton de enviar) el cual va a nesesitar de una modificacion en el addEventListener para que cuando lo emita emita con todo y destinario,
+
+* cuando pongas los archivos del inicio, asegurate de que en el servidor el expres.static tenga de segundo parametro el objeto el cual tiene la proiedad que establece el index del proyecto, y se lo pones en inicio.html
