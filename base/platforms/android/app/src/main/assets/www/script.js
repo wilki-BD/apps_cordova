@@ -4,6 +4,7 @@ let d = document.getElementById('d');
 let body = document.body ;
 
 
+
 document.addEventListener('deviceready', () => {
 
     b.addEventListener('click', () => {
