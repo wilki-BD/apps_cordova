@@ -7,18 +7,20 @@ body {
     justify-content: center;
     height: 100dvh;
     padding: 0px;
+    background-image: url('../fon.jpg');
+    background-size: cover;
     
 }
 
 
 
 #tabla {
-    background: grey;
+    background: rgba(110,110,110,0.8);
     max-width: 99dvw;
     width: 350px;
     max-height: 99dvh;
     height: 350px;
-    border: solid 5px #505050;
+    border: solid 5px grey;
     border-radius: 10px ;
     box-shadow: inset 0px 0px 15px black;
     padding: 0px;
@@ -30,6 +32,8 @@ body {
   
     
 }
+
+
 
 .ht {
     width: 70%;
@@ -46,7 +50,11 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    
+
 }
+
+
 
 #tapon {
     
@@ -161,3 +169,39 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#divespera {
+    background: grey;
+    width: 99dvw;
+    height: 100dvh;
+    position: absolute;
+    z-index: 50;
+    border: solid 1px #454545;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+#sal {
+    background: #8c8c8c;
+    color: white ;
+    text-shadow: 2px 2px 2px black;
+    height: 5dvh;
+    width: 20dvh;
+    outline: none;
+    border: solid 1px #64646d;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    z-index: 49;
+    top: 0px;
+    
+    
+}
+
+

@@ -1,5 +1,7 @@
 body {
     background: black;
+    background-image: url('./fon.jpg');
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
