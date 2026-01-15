@@ -1,3 +1,10 @@
+
+
+history.replaceState(null, '', window.location.href);
+history.back();
+
+
+//--------------
 let jug = document.getElementById('jug');
 
 
